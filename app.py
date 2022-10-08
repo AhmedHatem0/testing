@@ -4,7 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.naive_bayes import MultinomialNB
 
 
-loaded_model = pickle.load(open("E:/finalized_model.sav",'rb'))
+loaded_model = pickle.load(open("finalized_model.sav",'rb'))
 
 app = Flask(__name__)
 @app.route("/")
